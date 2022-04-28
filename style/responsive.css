@@ -37,4 +37,8 @@
     .filme-principal{
       background-image: center;
     }
+    
+    .trailer{
+      height: 200px;
+    }
 }
