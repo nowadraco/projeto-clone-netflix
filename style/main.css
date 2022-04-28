@@ -12,7 +12,7 @@
 /*elemento base*/
 body{
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'arial', Times, serif;
   color: white;
 }
 
@@ -43,7 +43,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa-house.jpg");
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa.jpg");
   
   height: 400px;
   background-size: cover;
@@ -51,7 +51,7 @@ header nav a:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .filme-principal .descricao{
@@ -61,7 +61,13 @@ header nav a:hover{
 
 .titulo{
   margin-top: 15%;
-  font-size: 40px;
+  font-size: 180%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.sub-titulo{
+  margin-top: 2%;
+  font-size: 110%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -99,4 +105,8 @@ header nav a:hover{
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 15px;
 }
