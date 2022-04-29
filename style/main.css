@@ -54,7 +54,25 @@ header nav a:hover{
   align-items: flex-start;
 }
 
+.filme-filme-principal{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa-filmes.jpg");
+  
+  height: 400px;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filme-filme-principal .descricao{
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -98,6 +116,10 @@ header nav a:hover{
 }
 
 .filme-principal .container{
+  width: 70%;
+}
+
+.filme-filme-principal .container{
   width: 70%;
 }
 
