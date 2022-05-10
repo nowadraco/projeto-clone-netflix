@@ -10,19 +10,34 @@
 <body>
       <style>
       #popup {
-        background: green;
-        width: 400px;
-        height: 400px;
+        background: rgba(0, 0, 0, .50);
+        width: 100vw;
+        height: 100vh;
         position: absolute;
+        top:0;
+        left: 0;
+        z-index: 2000;
+        justify-content: center;
+        align-items: center;
         display: none;
       }
     </style>
 
-    <a href="javascript:;" onclick="abrir('popup')">abrir</a>
+    <a href="javascript:;" onclick="abrir('popup')">abrir</a> 
+    
+        <a href="javascript:;" onclick="trocar('ytplayer')">abrir</a>
 
     <div id="popup">
-      <a href="javascript:;" onclick="fechar('popup')">javascript</a>
+      <a href="javascript:;" onclick="fechar('popup')">X</a>
+      
+        <main>
+        
+    <iframe id="ytplayer" type="text/html" width="100%" height="524"src="https://www.youtube.com/embed/59knIuqQ1rU?autoplay=1&enablejsapi=1&loop=1&modestbranding=1&iv_load_policy=3" frameborder="
+      0" allowfullscreen></iframe>
+
+  </main>
     </div>
+    
 
 </body>
 
