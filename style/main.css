@@ -186,9 +186,10 @@ header nav a:hover{
   text-decoration: none;
   background: crimson;
 }
-.popup-closed{git
+.popup-closed{
   position: absolute;
   top: 5px;
   right: 10px;
   cursor: pointer;
+  color: white;
 }
