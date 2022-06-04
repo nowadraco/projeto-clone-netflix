@@ -175,8 +175,8 @@ header nav a:hover{
   max-height: 75%;
   margin: 10% auto;
   padding: 20px;
-  background: black;
-  position: relative;
+  background: rgba(0, 0, 0, 0.85);
+  position: relative; 
 }
 
 .popup-closed{
@@ -185,4 +185,8 @@ header nav a:hover{
   right: 10px;
   cursor: pointer;
   color: white;
+}
+
+.popup-content p{
+  
 }
