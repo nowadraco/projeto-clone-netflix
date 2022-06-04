@@ -193,3 +193,11 @@ header nav a:hover{
   cursor: pointer;
   color: white;
 }
+
+.popup-link{
+  position: absolute;
+  bottom: 10px;
+  width: auto;
+  height: auto;
+  left: 40%;
+}
