@@ -188,5 +188,8 @@ header nav a:hover{
 }
 
 .popup-content p{
-  
+  max-width: 200ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
