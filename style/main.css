@@ -177,7 +177,6 @@ header nav a:hover{
   padding: 20px;
   background: rgba(0, 0, 0, 0.85);
   position: relative; 
-  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
 
   height: 4000px;
   background-size: cover;
@@ -225,4 +224,16 @@ header nav a:hover{
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.popup-index{
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
+}
+
+.popup-filmes{
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-filmes.jpg");
+}
+
+.popup-series{
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-series.jpg");
 }
