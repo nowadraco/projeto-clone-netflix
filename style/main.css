@@ -194,6 +194,7 @@ header nav a:hover{
   right: 10px;
   cursor: pointer;
   color: white;
+  font-size: 1.2em;
 }
 
 .txt-principal{
@@ -206,9 +207,22 @@ header nav a:hover{
 .espande-principal{
   cursor: pointer;
   display: block;
+  padding-bottom: 2%;
 }
 
 .retrair-principal{
   cursor: pointer;
   display: none;
+  padding-bottom: 2%;
+}
+
+.titulo-popup{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.discrição-popup{
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
