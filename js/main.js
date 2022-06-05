@@ -3,6 +3,9 @@ const popup = document.querySelector('.popup-wrapper')
 const txtp = document.querySelector('.txt-principal')
 const maisp = document.querySelector('.espande-principal')
 const menosp = document.querySelector('.retrair-principal')
+const maisinfofilmes = document.querySelector('.popup-mais-informacoes-filmes')
+const popupfundo = document.querySelector('.popup')
+const maisinfoseries = document.querySelector('.popup-mais-informacoes-series')
 
 button.addEventListener('click', () =>{
  popup.style.display = 'block'
@@ -20,7 +23,6 @@ maisp.addEventListener('click', () =>{
     txtp.style = 'white-space: nowrap'
    })
 
-
 popup.addEventListener('click',event => {
  const classNameOfClickedElement = event.target.classList[0]
  const classNames = ['popup-closed', 'popup-wrapper', 'popup-link']
@@ -30,3 +32,11 @@ popup.addEventListener('click',event => {
  popup.style.display = 'none'
  }
 })
+
+maisinfofilmes.addEventListener('click', () =>{
+    popupfundo.style = 'background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-filmes.jpg")'
+   })
+
+maisinfoseries.addEventListener('click', () =>{
+    popupfundo.style = 'background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-series.jpg")'
+   })
