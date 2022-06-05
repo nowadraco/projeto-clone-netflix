@@ -47,7 +47,7 @@ header nav a:hover{
   
   height: 400px;
   background-size: cover;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,6 +177,15 @@ header nav a:hover{
   padding: 20px;
   background: rgba(0, 0, 0, 0.85);
   position: relative; 
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
+
+  height: 4000px;
+  background-size: cover;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow:auto;
 }
 
 .popup-closed{
@@ -187,9 +196,19 @@ header nav a:hover{
   color: white;
 }
 
-.popup-content p{
+.txt-principal{
   max-width: 200ch;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.espande-principal{
+  cursor: pointer;
+  display: block;
+}
+
+.retrair-principal{
+  cursor: pointer;
+  display: none;
 }
