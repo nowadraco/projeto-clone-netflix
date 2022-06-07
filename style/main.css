@@ -247,3 +247,40 @@ header nav a:hover{
   background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-series.jpg");
 }
 
+.saoProgressive{
+  display: block;
+}
+
+.corpo-texto{
+  width: 35%;
+  margin-top: 2em;
+  margin-left: 1em;
+  text-align: justify;
+}
+
+.corpo-texto h2{
+  margin-bottom: 10px;
+}
+
+.txt-titulo{
+  max-width: 200ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.espande-titulo{
+  cursor: pointer;
+  display: block;
+  padding-bottom: 2%;
+}
+
+.retrair-titulo{
+  cursor: pointer;
+  display: none;
+  padding-bottom: 2%;
+}
+
+.video-titulo{
+  margin-top: 3em;
+}
