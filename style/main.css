@@ -264,15 +264,14 @@ header nav a:hover{
 }
 
 .titulosaoProgressive{
-  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%), url("/img/capa.jpg");
 }
 
 .saoordinalscale{
-  display: block;
+  display: none;
 }
-
 .titulosaoordinalscale{
-  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capaordinalscale.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%), url("/img/capaordinalscale.jpg");
 }
 
 .extras{
