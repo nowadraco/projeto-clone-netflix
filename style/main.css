@@ -251,6 +251,10 @@ header nav a:hover{
   display: none;
 }
 
+.titulosaoProgressive{
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-series.jpg");
+}
+
 .saoordinalscale{
   display: block;
 }
