@@ -235,6 +235,18 @@ header nav a:hover{
   padding-bottom: 10px;
 }
 
+.top-titulo{
+  font-size: 16px;
+  
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .popup-index{
   background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
 }
@@ -248,15 +260,19 @@ header nav a:hover{
 }
 
 .saoProgressive{
-  display: none;
+  display: block;
 }
 
 .titulosaoProgressive{
-  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa-series.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
 }
 
 .saoordinalscale{
   display: block;
+}
+
+.titulosaoordinalscale{
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capaordinalscale.jpg");
 }
 
 .extras{
