@@ -248,6 +248,10 @@ header nav a:hover{
 }
 
 .saoProgressive{
+  display: none;
+}
+
+.saoordinalscale{
   display: block;
 }
 
@@ -257,7 +261,9 @@ header nav a:hover{
   margin-right: 1em;
   text-align: justify;
   display: grid;
-  
+  grid-template-columns: 1fr 1fr;
+  grid-row: 60vh 40vh;
+  grid-gap: 20px;
 }
 
 .extras h2{
@@ -266,4 +272,9 @@ header nav a:hover{
 
 .video-titulo{
   margin-top: 3em;
+}
+
+footer{
+  margin-top: 5em;
+  text-align: center;
 }
