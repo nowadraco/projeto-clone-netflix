@@ -251,34 +251,17 @@ header nav a:hover{
   display: block;
 }
 
-.corpo-texto{
-  width: 35%;
+.extras{
   margin-top: 2em;
   margin-left: 1em;
+  margin-right: 1em;
   text-align: justify;
+  display: grid;
+  
 }
 
-.corpo-texto h2{
+.extras h2{
   margin-bottom: 10px;
-}
-
-.txt-titulo{
-  max-width: 200ch;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.espande-titulo{
-  cursor: pointer;
-  display: block;
-  padding-bottom: 2%;
-}
-
-.retrair-titulo{
-  cursor: pointer;
-  display: none;
-  padding-bottom: 2%;
 }
 
 .video-titulo{
