@@ -268,7 +268,7 @@ header nav a:hover{
 }
 
 .saoordinalscale{
-  display: none;
+  display: block;
 }
 .titulosaoordinalscale{
   background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%), url("/img/capaordinalscale.jpg");
