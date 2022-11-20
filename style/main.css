@@ -248,7 +248,7 @@ header nav a:hover{
 }
 
 .popup-index{
-  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("/img/capa.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.90)100%), url("img/capa.jpg");
 }
 
 .popup-filmes{
