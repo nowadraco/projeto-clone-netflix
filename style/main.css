@@ -43,7 +43,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa.jpg");
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://github.com/nowadraco/projeto-clone-netflix/blob/a9d8a2fa11f8d41f1e04cd4d27ab6205a7894a36/img/capa.jpg?raw=true");
   
   height: 400px;
   background-size: cover;
@@ -56,7 +56,7 @@ header nav a:hover{
 
 .filme-filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa-filmes.jpg");
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://github.com/nowadraco/projeto-clone-netflix/blob/main/img/capa-filmes.jpg?raw=true");
   
   height: 400px;
   background-size: cover;
@@ -69,7 +69,7 @@ header nav a:hover{
 
 .series-filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa-series.jpg");
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://github.com/nowadraco/projeto-clone-netflix/blob/main/img/capa-series.jpg?raw=true");
   
   height: 400px;
   background-size: cover;
